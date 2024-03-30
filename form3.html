@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVIEWS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <center>
+        <div class="container">
+            <div class="box1">Step 1: ACCOUNT</div>
+        </div>
+        <div class="container">
+            <div class="box-2">Step 2: PERSONAL DETAIL</div>
+        </div>
+        <div class="container">
+            <div class="box-3">Step 3: YOUR REVIEW</div>
+        </div>
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+        <form action="https://Reviews.php" method="post">
+            <fieldset style="height: 400px; width: 600px;">
+                <legend style="font-weight: bold;">Your Review</legend>
+                <br>
+                <p>
+                    <label for="about-us">How did you hear about us?</label>
+                    <select name="referrer" id="about-us">
+                        <option disabled selected value>Select your option</option>
+                        <option value="google">Google</option>
+                        <option value="social media">Social Media</option>
+                        <option value="friends">Friends</option>
+                        <option value="advert">Advertisement</option>
+                        <option value="rel">Relatives</option>
+                        <option value="other">Other</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="visit-us">Would you visit again?</label>
+                    <br>
+
+                    <input type="radio" id="visit-us" name="visit-us" /> Yes
+                    <input type="radio" id="visit-us" name="visit-us" /> No
+                    <input type="radio" id="visit-us" name="visit-us" /> Maybe
+                </p>
+                <p>
+                    <label for="comment">Comment:</label>
+                    <br>
+                    <textarea id="comment" name="comment" placeholder="Write your comment here" rows="5"
+                        cols="25"></textarea>
+                </p>
+                <br>
+                <label for="input-file"></label>
+                <input type="file" id="input-file">
+                <br>
+                <br>
+                <label>
+                    <input type="checkbox" name="subscribe" checked="checked" />
+                    Sign me up for Email updates
+                </label>
+                <br>
+                <br>
+                <a href="form2.html">
+                    <img src="images/back.png" alt="Go Back" title="Go Back" width="70" height="50" />
+                </a>
+                <input type="image" src="images/submit.jpg" alt="submit" title="submit" width="80" height="50" />
+            </fieldset>
+        </form>
+
+    </center>
+</body>
+
+</html>

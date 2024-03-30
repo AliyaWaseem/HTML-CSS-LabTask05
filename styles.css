@@ -1,0 +1,76 @@
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.box1 {
+    width: 150px;
+    height: 20px;
+    background-color: rgb(70, 238, 70);
+    padding: 10px;
+
+}
+
+.box2 {
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    background-color: rgb(184, 181, 181);
+}
+
+.box3 {
+    width: 180px;
+    height: 20px;
+    padding: 10px;
+    background-color: rgb(187, 184, 184);
+}
+
+fieldset {
+    display: block;
+    text-align: left;
+    margin-inline-start: 6px;
+    margin-inline-end: 2px;
+    border-width: 2px;
+    border-color: green;
+    border-style: dashed;
+}
+.form-input{
+    width: 500px;
+    height: 25px;
+}
+.box-1{
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    background-color: rgb(77, 174, 238);
+    
+}
+#cnic{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    width: max-content;
+    gap: 2px;
+
+}
+#cnic input{
+    width: 10px;
+    text-align: center;
+}
+.box-2{
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    background-color:  rgb(70, 238, 70);
+}
+.box-3{
+    width: 180px;
+    height: 20px;
+    padding: 10px;
+    background-color: rgb(77, 174, 238);
+}
+.submit-button{
+    background-image: url(images/submit.jpg);
+}
+
